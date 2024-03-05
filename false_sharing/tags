@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+NUM_PHYCORES	false_sharing.c	22;"	d	file:
+NUM_VCORES	false_sharing.c	23;"	d	file:
+_GNU_SOURCE	false_sharing.c	1;"	d	file:
+compiler	false_sharing.c	/^        const char *compiler = "Clang";$/;"	v
+compiler	false_sharing.c	/^        const char *compiler = "GNU GCC\/G++";$/;"	v
+compiler	false_sharing.c	/^        const char *compiler = "Intel ICC";$/;"	v
+compute_wtime	false_sharing.c	/^double compute_wtime()$/;"	f
+cpuset	false_sharing.c	/^static cpu_set_t cpuset;$/;"	v	file:
+fptr	false_sharing.c	/^static FILE *fptr = NULL;$/;"	v	file:
+get_num_phys_cores	false_sharing.c	/^int get_num_phys_cores()$/;"	f
+get_rand_physical_cpu	false_sharing.c	/^int get_rand_physical_cpu()$/;"	f
+get_thread_siblings	false_sharing.c	/^int *get_thread_siblings(int nphys_cores)$/;"	f
+init	false_sharing.c	/^void init(int argc, char **argv)$/;"	f
+main	false_sharing.c	/^int main(int argc, char** argv)$/;"	f
+mode	false_sharing.c	/^static unsigned short mode = 0;$/;"	v	file:
+num_hardware_threads	false_sharing.c	/^static int num_hardware_threads = 0;$/;"	v	file:
+num_phys_cores	false_sharing.c	/^static int num_phys_cores = 0;$/;"	v	file:
+num_virt_cores	false_sharing.c	/^static int num_virt_cores = 0;$/;"	v	file:
+parse_args	false_sharing.c	/^unsigned short *parse_args(int argc, char **argv)$/;"	f
+rand_siblings	false_sharing.c	/^static unsigned short rand_siblings = 0;$/;"	v	file:
+smt_enabled	false_sharing.c	/^static int smt_enabled;$/;"	v	file:
+t_siblings	false_sharing.c	/^static int *t_siblings = NULL;$/;"	v	file:
+tend	false_sharing.c	/^static struct timespec tstart, tend;$/;"	v	typeref:struct:	file:
+tstart	false_sharing.c	/^static struct timespec tstart, tend;$/;"	v	typeref:struct:timespec	file:
+work	false_sharing.c	/^void *work(void *arg)$/;"	f
